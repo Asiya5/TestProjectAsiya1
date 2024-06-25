@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9c6886c-3ce9-49de-9359-e82ca7c12744" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CreateBookingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateBookingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GetBookingIdsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetBookingIdsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +37,27 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.CreateBookingTest.executor": "Run",
     "TestNG.GetBookingIdsTest.executor": "Run",
+    "TestNG.GetBookingIdsTest.testGetBookingIdsByDate.executor": "Run",
+    "TestNG.GetBookingIdsTest.testGetBookingIdsByName.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/asiyatemirkanova/Downloads/TestProjectAsiya/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.GetBookingIdsTest">
+    <configuration name="CreateBookingTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestProjectAsiya" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CreateBookingTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GetBookingIdsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProjectAsiya" />
       <option name="PACKAGE_NAME" value="" />
@@ -61,9 +69,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GetBookingIdsTest.testGetBookingIdsByDate" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestProjectAsiya" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GetBookingIdsTest" />
+      <option name="METHOD_NAME" value="testGetBookingIdsByDate" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetBookingIdsTest.testGetBookingIdsByName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestProjectAsiya" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GetBookingIdsTest" />
+      <option name="METHOD_NAME" value="testGetBookingIdsByName" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.GetBookingIdsTest" />
+        <item itemvalue="TestNG.GetBookingIdsTest.testGetBookingIdsByDate" />
+        <item itemvalue="TestNG.GetBookingIdsTest.testGetBookingIdsByName" />
+        <item itemvalue="TestNG.CreateBookingTest" />
       </list>
     </recent_temporary>
   </component>

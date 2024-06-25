@@ -18,8 +18,8 @@ public class CreateBookingTest {
     public void testCreateBooking() {
         String requestBody = """
                 {
-                    "firstname" : "Alina",
-                    "lastname" : "Aytbekova",
+                    "firstname" : "Jim",
+                    "lastname" : "Brown",
                     "totalprice" : 111,
                     "depositpaid" : true,
                     "bookingdates" : {
@@ -50,7 +50,7 @@ public class CreateBookingTest {
         response.then().statusCode(200);
         String firstname = response.jsonPath().getString("firstname");
         String lastname = response.jsonPath().getString("lastname");
-        Assert.assertEquals(firstname, "Alina");
-        Assert.assertEquals(lastname, "Aytbekova");
+        Assert.assertEquals(firstname, "Jim");
+        Assert.assertEquals(lastname, "Brown");
     }
 }
