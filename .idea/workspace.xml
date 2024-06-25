@@ -7,6 +7,7 @@
     <list default="true" id="e9c6886c-3ce9-49de-9359-e82ca7c12744" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CreateBookingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateBookingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GetBookingIdsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetBookingIdsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,7 @@
     "onboarding.tips.debug.path": "/Users/asiyatemirkanova/Downloads/TestProjectAsiya/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.GetBookingIdsTest">
+  <component name="RunManager" selected="TestNG.GetBookingIdsTest.testGetBookingIdsByDate">
     <configuration name="CreateBookingTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProjectAsiya" />
       <option name="PACKAGE_NAME" value="" />
@@ -95,10 +96,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GetBookingIdsTest" />
         <item itemvalue="TestNG.GetBookingIdsTest.testGetBookingIdsByDate" />
-        <item itemvalue="TestNG.GetBookingIdsTest.testGetBookingIdsByName" />
         <item itemvalue="TestNG.CreateBookingTest" />
+        <item itemvalue="TestNG.GetBookingIdsTest" />
+        <item itemvalue="TestNG.GetBookingIdsTest.testGetBookingIdsByName" />
       </list>
     </recent_temporary>
   </component>

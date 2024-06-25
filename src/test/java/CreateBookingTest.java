@@ -52,5 +52,6 @@ public class CreateBookingTest {
         String lastname = response.jsonPath().getString("lastname");
         Assert.assertEquals(firstname, "Jim");
         Assert.assertEquals(lastname, "Brown");
+
     }
 }
